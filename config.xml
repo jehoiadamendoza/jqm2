@@ -3,7 +3,7 @@
 		xmlns:gap 	= "http://phonegap.com/ns/1.0"
 		xmlns:cdv 	= "http://cordova.apache.org/ns/1.0"
 		id 			= "contacts"
-		version 	= "0.0.1" >
+		version 	= "0.0.3" >
 
 	<name>Contacts</name>
 	
@@ -15,11 +15,8 @@
         Jehoiada Mendoza
     </author>
 
-<content src="index.html" />
+<gap:plugin name="org.apache.cordova.contacts" source="npm"/> 
 
-<gap:plugin name="com.indigoway.cordova.whitelist.whitelistplugin" version="1.1.1" />
-<access origin="*" />
-<allow-navigation href="*" />
-<allow-intent href="*" />
-
+<feature name="http://api.phonegap.com/1.0/contacts"/>
 </widget>
+
