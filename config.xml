@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns 		= "http://www.w3.org/ns/widgets"
+		xmlns:gap 	= "http://phonegap.com/ns/1.0"
+		xmlns:cdv 	= "http://cordova.apache.org/ns/1.0"
+		id 			= "contacts"
+		version 	= "0.0.1" >
+
+	<name>Contacts</name>
+	
+    <description>
+        A simple contact application
+    </description>
+ 
+    <author href="http://www.jcmsinc.com" email="jehoiadamendoza@gmail.com">
+        Jehoiada Mendoza
+    </author>
+
+<content src="index.html" />
+
+<gap:plugin name="com.indigoway.cordova.whitelist.whitelistplugin" version="1.1.1" />
+<access origin="*" />
+<allow-navigation href="*" />
+<allow-intent href="*" />
+
+</widget>
